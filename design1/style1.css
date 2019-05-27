@@ -1,0 +1,63 @@
+.logo {
+    background-image: url('nysl_logo1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.head1 {
+    margin-left: 160px;
+}
+
+.head2 {
+    margin-left: 160px;
+    margin-top: 60px;
+}
+
+.para {
+    margin-left: 180px;
+}
+
+.para1 {
+    margin-left: 60px;
+}
+
+.img1 {
+    background-image: url('soccer_image1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 140px;
+    float: left;
+}
+
+.img2 {
+    background-image: url('soccer_image2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 140px;
+    float: left;
+    margin-top: 60px;
+}
+
+.img3 {
+    background-image: url('soccer_image3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 140px;
+    float: left;
+    margin-top: 40px;
+}
+
+.mail {
+    margin-top: 60px;
+    margin-left: 240px;
+}

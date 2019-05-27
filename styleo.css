@@ -1,0 +1,94 @@
+body {
+    background-color: lightgreen;
+    margin-top: 0px;
+}
+
+.bgimg1 {
+    background-image: url('design1_image1.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 200px;
+    width: 700px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+}
+
+.head1 {
+    background-color: indianred;
+    border-style: solid;
+    border-color: black;
+    line-height: 0%;
+    width: 700px;
+    color: aliceblue
+}
+
+.logo {
+    background-image: url('nysl_logo1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top: 180px;
+    margin-right: 140px;
+
+
+}
+
+.head2 {
+    background-color: indianred;
+    border-style: solid;
+    border-color: black;
+    line-height: 0%;
+    width: 700px;
+    color: aliceblue
+}
+
+.pages {
+    margin-top: 30px;
+    background-color: indianred;
+    width: 700px;
+    border-style: solid;
+    border-color: black;
+}
+
+button {
+    width: 60px;
+    border-style: solid;
+    border-color: lawngreen;
+    +
+}
+
+.para {
+    left: 200px;
+    top: 320px;
+}
+
+.pages,
+.para {
+    position: absolute;
+}
+
+.head3 {
+    left: 200px;
+    width: 520px;
+    text-align: justify;
+}
+
+.pages,
+.head3 {
+    position: absolute;
+    top: 320px;
+}
+
+.pages,
+.mail {
+    position: absolute;
+}
+
+.mail {
+    left: 200px;
+    top: 360px;
+}

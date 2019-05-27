@@ -1,0 +1,55 @@
+a {
+    color: aliceblue;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.bgimg1 {
+    background-image: url('design2_image1.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 200px;
+    width: 580px;
+    border-style: solid;
+    border-right-color: black;
+}
+
+.button1 {
+    margin-left: 360px;
+}
+
+button {
+    background-color: steelblue;
+}
+
+.head1 {
+    color: black;
+}
+
+.head2 {
+    background-color: steelblue;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    width: 580px;
+    line-height: 0%;
+    color: whitesmoke;
+}
+
+.img1 {
+    background-image: url('nysl_logo1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 60px;
+}
+
+.para {
+    margin-left: 160px;
+    margin-top: 70px;
+}
