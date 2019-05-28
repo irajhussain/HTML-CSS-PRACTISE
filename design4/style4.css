@@ -1,9 +1,10 @@
 body {
     background-color: azure;
+    align-items: center;
 }
 
 .bgimg1 {
-    background-image: url('design2_image1.jpg');
+    background-image: url('design1_image1.jpg');
     background-size: 100% 100%;
     background-position: center center;
     height: 200px;
@@ -27,7 +28,6 @@ button {
     width: 660px;
     line-height: 240%;
     padding: 2px;
-
 }
 
 .head2 {
@@ -80,7 +80,7 @@ table {
     border: 1px solid black;
 }
 
-th {
+thead {
     text-align: left;
     background: grey;
     color: white;
@@ -228,16 +228,19 @@ p {
 }
 
 }
-@keyframes increase{
-    from{
+
+@keyframes increase {
+    from {
         font-size: 120px;
         color: white;
     }
-    to{
+
+    to {
         font-size: 180px;
         color: indianred;
     }
 }
-.a1{
+
+.a1 {
     float: right;
 }

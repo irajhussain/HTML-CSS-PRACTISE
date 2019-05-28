@@ -9,7 +9,8 @@
 
 <body>
     <div class="head1">
-        <div class="logo"></div>
+        <div class="logo">
+        </div>
         <h1>Northside Youth Soccer League</h1>
     </div>
     <br>
@@ -20,138 +21,261 @@
         <button><a href="rules.html">Rules</a></button>
         <button><a href="table.html">Information</a></button>
         <button><a href="registration.html">Register</a></button>
-        <button><a href="/main.html">Main</a></button>
+        <button><a href="/index.html">Main</a></button>
     </div>
-    <div class="bgimg1"></div><br>
+    <div class="bgimg1"><br>
+    </div>
     <div class="head2">
         <h2>Registration Form</h2>
     </div>
     <div class="flex-item">
         <form class="form" action="show_data.html" method="get">
-
             <div class="flex-item">
-                Player's First Name:&nbsp;<input type="text" name="firstname">&nbsp;&nbsp;
-                Last Name:&nbsp<input type="text" name="lastname">
-                </div>
-            <div class="flex-item">
-                Street Asdress:&nbsp;<input type="text" name="Address">
-                </div>
-            <div class="flex-item">
-                City:&nbsp;<input type="text" name="City">&nbsp;&nbsp;
-                Zip Code: &nbsp;<input type="text" name="zip">
+                <label for="FirstName">First Name:
+                </label>
+                &nbsp;<input type="text" name="FirstName" id="FirstName">
+                &nbsp;&nbsp;
+                <label for="LastName">Last Name:
+                </label>
+                &nbsp<input type="text" name="LastName" id="LastName">
             </div>
             <div class="flex-item">
-                Birth Date (mm/dd/yyyy):&nbsp;<input type="text" name="birthday"></div>
-            <div class="flex-item">
-                Gender: <input type="checkbox" name="gender">Female
-                <input type="checkbox" name="gender">Male
+                <label for="Address">Street Asdress:
+                </label>
+                &nbsp;<input type="text" name="Address" id="Address">
             </div>
             <div class="flex-item">
-                Grade:<input type="checkbox" name="grade"></div>
+                <label for="City">City:
+                </label>
+                &nbsp;<input type="text" name="City" id="City">&nbsp;&nbsp;
+                <label for="ZipCode">Zip Code:
+                </label>
+                &nbsp;<input type="text" name="ZipCode" id="ZipCode">
+            </div>
+            <div class="flex-item">
+                <label for="BirthDate">Birth Date (mm/dd/yyyy):
+                </label>
+                &nbsp;<input type="text" name="BirthDate" id="BirthDate"></div>
+            <div class="flex-item">
+                <label for="Gender">Gender:
+                </label>
+                &nbsp;<select name="Gender">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+            </div>
+            <div class="flex-item">
+                <label for="Grade">Grade:
+                </label>
+                &nbsp;<select name="Grade">
+                    <option value="Pre-School">Pre-School</option>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                </select>
+            </div>
+            <div class="flex-item">
+                <label for="Parent">Parent/Guardian:
+                </label>
+                &nbsp;<input type="text" name="Parent" id="Parent">
+            </div>
+            <div class="flex-item">
+                <label for="Contact">Contact Phone:
+                </label>
+                <input type="text" name="Contact" id="Contact">
+            </div>
+            <div class="flex-item">
+                <label for="Mail">Contact Email:
+                </label>
+                <input type="text" name="Mail" id="Mail">
+            </div>
             <div class="flex-item">
                 <p><b>Which elementary schools do you live near?<p></b>
-            </div><br>
-
+            </div>
             <div class="flex-item">
                 <table class="table1">
-
                     <tr>
                         <th class="th1">First Closest School:</th>
-
                         <th class="th1">Second Closest School:</th>
                     </tr>
                     <tr>
-                        <td class="td1"><input type="checkbox" name="pl1">AJ Katzenmaier
-                            &nbsp;&nbsp;&nbsp;<input type="checkbox" name="pl2">Marjorie P Hartr</td>
-                        <td class="td1"><input type="checkbox" name="pl3">AJ Katzenmaier
-                            &nbsp;&nbsp;<input type="checkbox" name="pl4">North Elementaryt</td>
+                        <td class="td1">
+                            <label>
+                                <input type="checkbox" name="FirstSchool" value="AJ Katzenmaier">AJ Katzenmaier
+                            </label>
+                            &nbsp;&nbsp;&nbsp;
+                            <label>
+                                <input type="checkbox" name="FirstSchool" value="Marjorie P Hartr">Marjorie P Hartr
+                            </label>
+                        </td>
+                        <td class="td1">
+                            <label>
+                                <input type="checkbox" name="SecondSchool" value="AJ Katzenmaier">AJ Katzenmaier
+                            </label>
+                            &nbsp;&nbsp;
+                            <label>
+                                <input type="checkbox" name="SecondSchool" value="North Elementaryt">North Elementaryt
+                            </label>
+                        </td>
                     </tr>
-
                     <tr>
-                        <td class="td1"><input type="checkbox" name="pl5">Greenbay
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="pl6">North Elementary</td>
-                        <td class="td1"><input type="checkbox" name="pl7">Greenbay
-                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="pl8">Marjorie P Hart</td>
+                        <td class="td1">
+                            <label>
+                                <input type="checkbox" name="FirstSchool" value="Greenbay">Greenbay
+                            </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label>
+                                <input type="checkbox" name="FirstSchool" value="North Elementary">North Elementary
+                            </label>
+                        </td>
+                        <td class="td1">
+                            <label>
+                                <input type="checkbox" name="SecondSchool" value="Greenbay">Greenbay
+                            </label>
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label>
+                                <input type="checkbox" name="SecondSchool" value="Marjorie P Hart">Marjorie P Hart
+                            </label>
+                        </td>
                     </tr>
-
                     <tr>
-                        <td class="td1"><input type="checkbox" name="pl5">Howard A Yeager
-                            <input type="checkbox" name="pl6">South Elementary</td>
-                        <td class="td1"><input type="checkbox" name="pl7">Howard A Yeager
-                            <input type="checkbox" name="pl8">South Elementary</td>
+                        <td class="td1">
+                            <label>
+                                <input type="checkbox" name="FirstSchool" value="Howard A Yeager">Howard A Yeager
+                            </label>
+                            <label>
+                                <input type="checkbox" name="FirstSchool" value="South Elementary">South Elementary
+                            </label>
+                        </td>
+                        <td class="td1">
+                            <label>
+                                <input type="checkbox" name="SecondSchool" value="Howard A Yeager">Howard A Yeager
+                            </label>
+                            <label>
+                                <input type="checkbox" name="SecondSchool" value="South Elementary">South Elementary
+                            </label>
+                        </td>
                     </tr>
-
                 </table>
             </div>
-
             <br><br><br><br>
             <div class="flex-item">
                 <p><b>What position(s) do you normally play?</b> (check all that apply)</p>
-            </div><br>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl9">Forward
-                <input type="checkbox" name="pl10">Midfielder</div>
+                <label>
+                    <input type="checkbox" name="PlayPosition" value="Forward">Forward
+                </label>
+                <label>
+                    <input type="checkbox" name="PlayPosition" value="Midfielder">Midfielder
+                </label>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl11">Defence
-                <input type="checkbox" name="pl12">Goal Keeper</div>
-
+                <label>
+                    <input type="checkbox" name="PlayPosition" value="Defence">Defence
+                </label>
+                <label>
+                    <input type="checkbox" name="PlayPosition" value="Goal Keeper">Goal Keeper
+                </label>
+            </div>
             <div class="flex-item">
                 <p><b>What position(s) do you want to play?</b> (check all that apply)</p>
             </div>
-            <br>
             <div class="flex-item">
-                <input type="checkbox" name="pl13">Forward
-                <input type="checkbox" name="pl14">Midfielder<br></div>
+                <label>
+                    <input type="checkbox" name="DesiredPosition" value="Forward">Forward
+                </label>
+                <label>
+                    <input type="checkbox" name="DesiredPosition" value="Midfielder">Midfielder<br>
+                </label>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl15">Defence
-                <input type="checkbox" name="pl16">Goal Keeper <br><br>
-            </div><br>
-
-            <input type="checkbox" name="pl17"><b>Already Have a Uniform </b>
+                <label>
+                    <input type="checkbox" name="DesiredPosition" value="Defence">Defence
+                </label>
+                <label>
+                    <input type="checkbox" name="DesiredPosition" value="Goal Keeper">Goal Keeper
+                </label>
+                <br><br>
+            </div>
+            <input type="checkbox" name="HaveUniform" value="Yes">
+            <b>Already Have a Uniform </b>
             <div class="flex-item">
                 <p><b>Jersey Size:</b></p>
-            </div><br>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl18">Youth Small
-                <input type="checkbox" name="pl19">Medium<br></div>
+                <label>
+                    <input type="checkbox" name="JersySize" value="Youth Small">Youth Small
+                </label>
+                <label>
+                    <input type="checkbox" name="JersySize" value="Medium">Medium<br>
+                </label>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl20">Youth Medium
-                <input type="checkbox" name="pl21">Large<br></div>
+                <label>
+                    <input type="checkbox" name="JersySize" value="Youth Medium">Youth Medium
+                </label>
+                <label>
+                    <input type="checkbox" name="JersySize" value="Large">Large<br>
+                </label>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl22">Youth Large
-                <input type="checkbox" name="pl23">Extra-Large<br></div>
+                <label>
+                    <input type="checkbox" name="JersySize" value="Large">Youth Large
+                </label>
+                <label>
+                    <input type="checkbox" name="JersySize" value="Extra-Large">Extra-Large<br>
+                </label>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl24">Small<br></div>
-
+                <label>
+                    <input type="checkbox" name="JersySize" value="Small">Small<br>
+                </label>
+            </div>
             <div class="flex-item">
                 <p><b>Shorts Size:</b></p>
-            </div><br>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl18">Youth Small
-                <input type="checkbox" name="pl19">Medium<br></div>
+                <label>
+                    <input type="checkbox" name="ShortsSize" value="Youth Small">Youth Small
+                </label>
+                <label>
+                    <input type="checkbox" name="ShortsSize" value="Medium">Medium<br>
+                </label>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl20">Youth Medium
-                <input type="checkbox" name="pl21">Large<br></div>
+                <label>
+                    <input type="checkbox" name="ShortsSize" value="Youth Medium">Youth Medium
+                </label>
+                <label>
+                    <input type="checkbox" name="ShortsSize" value="Large">Large<br>
+                </label>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl22">Youth Large
-                <input type="checkbox" name="pl23">Extra-Large<br></div>
+                <label>
+                    <input type="checkbox" name="ShortsSize" value="Youth Large">Youth Large
+                </label>
+                <label>
+                    <input type="checkbox" name="ShortsSize" value="Extra-Large">Extra-Large<br>
+                </label>
+            </div>
             <div class="flex-item">
-                <input type="checkbox" name="pl24">Small<br></div>
-
+                <label>
+                    <input type="checkbox" name="ShortsSize" value="Small">Small<br>
+                </label>
+            </div>
             <div class="parreg">
-
                 <p><b><u>Permission to Play</u></b></p>
-
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation. By submitting below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. <br> Click Submit to Agree and Register</p><br>
             </div>
             <div class="flex-item1">
                 <button type="submit">Submit</button>
                 &nbsp;&nbsp;&nbsp;
-                Date (mm/dd/yyyy):<input type="text" name="date">
+                <label for="DateofRegistration">Date (mm/dd/yyyy):
+                </label>
+                <input type="text" name="DateofRegistration" id="DateofRegistration">
             </div>
-
         </form>
     </div>
-</body>
-
-</html>
+</body></html>
